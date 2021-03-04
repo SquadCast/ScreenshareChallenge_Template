@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+$primary: #1C5D99;
+$secondary: #639FAB;
+$success: #2828dc;
+$danger: #222222;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~font-awesome/scss/font-awesome.scss";
+body,
+html {
+    height: 100%;
+}
+
+.btn,
+.btn-floating {
+    margin: 5px;
+}
+
+.navbar-expand-lg {
+    max-height: 50px;
+}
+
+.container {
+    max-width: 1980px;
+}
+
+img {
+    padding: 10px !important;
+}
+
+.video, .canvas {
+  max-width: 100%;
+}
